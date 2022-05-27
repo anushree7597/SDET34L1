@@ -21,7 +21,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 /**
  * This class contains implementation of all basic configuration annotations
  * @author DELL
- *
+ * all the test scripts are extended from base class
  */
 public class BaseClass {
 	public static WebDriver staticdriver;
@@ -126,6 +126,7 @@ public class BaseClass {
 	{
 		WebDriverBrowserUtility.quitBrowser(driver);
 	}
+	
 	/**
 	 * in this annotation we will close the excel
 	 */

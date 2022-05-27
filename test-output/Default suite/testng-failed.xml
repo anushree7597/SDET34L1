@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.vtiger.compaignsTest.CreateCampaignNameTest">
+        <methods>
+          <include name="afterClass1"/>
+          <include name="createCampaignTest"/>
+          <include name="beforeMethod1Test"/>
+          <include name="afterMethod1Test"/>
+          <include name="beforesuitetest"/>
+          <include name="beforeClassTest"/>
+          <include name="aftersuite1Test"/>
+        </methods>
+      </class> <!-- com.vtiger.compaignsTest.CreateCampaignNameTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
